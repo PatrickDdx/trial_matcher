@@ -1,0 +1,15 @@
+
+# Core dependencies
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+sendgrid>=6.10.0
+
+# Async support
+# asyncio is included in the Python standard library
+
+# Jupyter Notebook support
+ipython>=8.0.0
+
+# Optional: If you plan to run in Jupyter Notebooks
+notebook>=7.0.0
