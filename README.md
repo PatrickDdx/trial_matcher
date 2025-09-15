@@ -1,5 +1,5 @@
 
-# 🧠 Clinical Trial Matcher AI Agent  
+# Clinical Trial Matcher AI Agent  
 
 ![Trial Matcher Workflow](./trial_matcher_example.png)
 
@@ -47,42 +47,6 @@ Reason: While this trial addresses advanced solid tumors including TNBC, it does
 
 ---
 
-## 🛠️ Technical Details  
-
-### 1. **Key Fact Extraction**
-```python
-class KeyFacts(BaseModel):
-    condition: str
-    intervention: str
-    age: int
-    gender: str
-    location: str
-
-search_planner = Agent(
-    name="Query builder helper",
-    instructions=INSTRUCTIONS,
-    model="gpt-4o-mini",
-    output_type=KeyFacts
-)
-```
-
-### 2. **Trial Ranking**
-```python
-class Trial_Format(BaseModel):
-    rank: int
-    nctId: str
-    reason: str
-
-ranker = Agent(
-    name="Trial ranker",
-    instructions=INSTRUCTIONS,
-    model="gpt-4o-mini",
-    output_type=Rank_Format
-)
-```
-
----
-
 ## 🚀 Getting Started  
 
 ### Prerequisites  
@@ -93,8 +57,8 @@ ranker = Agent(
 
 ### Installation  
 ```bash
-git clone https://github.com/yourusername/trial-matcher-ai.git
-cd trial-matcher-ai
+git clone https://github.com/PatrickDdx/trial_matcher.git
+cd trial_matcher
 pip install -r requirements.txt
 ```
 
@@ -112,13 +76,6 @@ Modify the `message_desc` variable to test different patient descriptions.
 - **Oncology clinics** – quickly surface trial options for patients who have exhausted standard therapies.  
 - **CROs / Biotech companies** – identify eligible participants for recruitment.  
 - **Medical researchers** – explore trial landscapes for specific conditions.  
-
----
-
-## 📌 Roadmap  
-- [ ] Add support for multilingual patient descriptions (auto-translate to English).  
-- [ ] Expand to additional clinical trial registries beyond ClinicalTrials.gov.  
-- [ ] Integrate with EHR data sources for automated patient matching.  
 
 ---
 
