@@ -11,7 +11,13 @@ Designed for oncologists, researchers, and healthcare professionals, this soluti
 - Search clinical trial databases using Boolean logic for precise filtering.  
 - **Rank trials** based on patient eligibility and relevance, providing a short explanation for each match.  
 
-This project is entirely **notebook-based** (`.ipynb`) for easy experimentation — no GUI is required.  
+This project includes a Streamlit UI and a **notebook** (`.ipynb`) for easy experimentation.  
+
+---
+
+## UI Example
+![UI1](./docs/UI_initial_state.png)
+![UI2](./docs/UI_after_query.png)
 
 ---
 
@@ -81,8 +87,3 @@ Modify the `message_desc` variable to test different patient descriptions.
 
 ## 📄 License  
 MIT License – feel free to use, modify, and improve.  
-
----
-
-## 💬 Contact  
-For collaboration or enterprise integration, reach out via **[LinkedIn](https://www.linkedin.com)** or open an issue in this repository.  
