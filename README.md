@@ -85,9 +85,9 @@ Modify the `message_desc` variable to test different patient descriptions.
 
 ---
 
-📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/patrick-linke-905b16372)
+## 📄 License  
+MIT License – feel free to use, modify, and improve.  
 
 ---
 
-## 📄 License  
-MIT License – feel free to use, modify, and improve.  
+📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/patrick-linke-905b16372)
