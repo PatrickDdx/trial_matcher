@@ -81,7 +81,11 @@ Modify the `message_desc` variable to test different patient descriptions.
 ## 🤝 Potential Use Cases  
 - **Oncology clinics** – quickly surface trial options for patients who have exhausted standard therapies.  
 - **CROs / Biotech companies** – identify eligible participants for recruitment.  
-- **Medical researchers** – explore trial landscapes for specific conditions.  
+- **Medical researchers** – explore trial landscapes for specific conditions.
+
+---
+
+📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/patrick-linke-905b16372)
 
 ---
 
